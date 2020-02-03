@@ -1,0 +1,18 @@
+.container_content_equip {
+  display : flex ;
+  flex-wrap: wrap ;
+  justify-content: center;
+  padding-top: 100px;
+}
+.content_element_equip {
+  width: 33.33% ;
+  padding: 10px;
+  text-align: center;
+  cursor : pointer;
+}
+@media screen and (max-width:500px) {
+  .content_element_equip {
+    width: 100% ;
+    padding: 20px ;
+  }
+}

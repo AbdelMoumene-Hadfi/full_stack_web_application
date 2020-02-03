@@ -1,0 +1,32 @@
+.section {
+  box-sizing : content-box;
+  text-align: center;
+  margin-top: 15% ;
+  margin-bottom :  15% ;
+  margin-left : 30%;
+  margin-right: 30%;
+  padding : 30px ;
+  border-radius: 10px ;
+  box-shadow: 0px 0px 10px 0px #000 ;
+  }
+.section_title {
+  font-family : "montserrat",sans-serif;
+  font-size: 80% ;
+  margin-bottom: 10px ;
+
+}
+.section_element {
+  margin : 10px ;
+}
+.section_element button {
+  width : 50% ;
+  font-size : 70% ;
+}
+
+@media screen and (max-width:770px) {
+  .section {
+    margin-top: 30% ;
+    margin-right: 10% ;
+    margin-left: 10%;
+  }
+}
